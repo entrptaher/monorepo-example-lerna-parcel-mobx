@@ -39,6 +39,15 @@ As for relative path, the following alias takes care of it in respective package
 }
 ```
 
+Another way is to define the path specifically, 
+```json
+"alias": {
+    "components": "./components",
+    "containers": "./containers",
+    "stores": "./stores"
+}
+```
+
 ### VSCode Intellisense
 The jsconfig.json file helps vsCode understand and navigate easily.
 ```json

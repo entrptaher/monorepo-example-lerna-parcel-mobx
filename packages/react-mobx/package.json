@@ -18,6 +18,9 @@
     "parcel-bundler": "^1.12.3"
   },
   "alias": {
-    "src/**": "./$1"
+    "src/**": "./$1",
+    "components": "./components",
+    "containers": "./containers",
+    "stores": "./stores"
   }
 }

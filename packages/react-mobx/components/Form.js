@@ -1,6 +1,6 @@
 import React from "react";
 import { observer } from "mobx-react";
-import store from "src/stores/Title";
+import store from "stores/Title";
 
 // observe the form for change
 const Form = observer(props => {
