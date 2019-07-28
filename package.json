@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --force-local",
+    "start": "lerna run --stream --no-prefix --scope=@monorepo-example/another-component start"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
