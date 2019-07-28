@@ -17,8 +17,10 @@ yarn run start # runs the start script with some lerna config
 
 ## Explanation
 
+Note: You do not need `.babelrc` file on multiple folders most of the time on such monorepo. This shows how to deal with components with it's own config.
+
 ### Components
-The react-mobx is marked as `"source": true` in package.json to indicate parcel that it's another component and it should use babel config from the another-component folder. The babel config on react-mobx folder is ignored when you run another-component.
+The react-mobx is marked as `"source": true` in package.json to indicate parcel that it's another component and it should use babel config from the another-component folder. The babel config on react-mobx folder is ignored when you run another-component. 
 
 ```json
 {
